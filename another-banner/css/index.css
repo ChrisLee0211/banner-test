@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑"
+}
+/* 主容器 */
+.main{
+    width:1200px;
+    height: 460px;
+    border:10px solid #bbb;
+    margin: 0 auto;
+    margin-top: 240px;
+    position: relative;
+}
+/* 轮播图 */
+.banner{
+    width:1200px;
+    height: 460px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.play{
+    z-index: 1
+}
+/* 前后按钮 */
+.icon{
+    width:30px;
+    height: 50px;
+    position: absolute;
+    top:50%;
+    margin-top:-15px;
+    padding: 10px;
+    z-index: 20;
+    cursor: pointer;
+}
+.icon img{
+    width:16px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top:15px
+}
+.icon-act{
+    background-color: black;
+    opacity: 0.5
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+/* 轮播切换小球 */
+.box-item{
+    width:150px;
+    height: 50px;
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.dots{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.active{
+    background-color: white;
+    opacity:1;
+}
