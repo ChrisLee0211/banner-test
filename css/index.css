@@ -48,7 +48,8 @@ body{
 }
 /* 导航栏动态样式 */
 .item-active{
-    background-color: #ffcc00
+    background-color: #ffcc00;
+    font-weight: bold;
 }
 /* 轮播图样式 */
 .banner{
