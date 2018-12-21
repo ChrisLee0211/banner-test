@@ -54,7 +54,7 @@ $(function(){
         })
         // 自动播放
         function autoplay(){
-            if(index < len){
+            if(index < len-1){
                 index++
             }else{
                 index=0
